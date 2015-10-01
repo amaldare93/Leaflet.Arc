@@ -7,9 +7,9 @@ This plugin adds  L.Polyline.Arc function which wraps arc.js functionality for c
 ## Usage
 Include [Leaflet.js](http://leafletjs.com/), [arc.js](https://github.com/springmeyer/arc.js) and [Leaflet.Arc.js](https://raw.githubusercontent.com/MAD-GooZe/Leaflet.Arc/gh-pages/Leaflet.Arc.js):
 ```html
-<link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.css"/>
-<script src="//cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.js"></script>
-<script src='https://api.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.css"/>
+<script src="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.js"></script>
+<script src='http://api.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
 <script src='Leaflet.Arc.js'></script>
 ```
 Create arcs!
