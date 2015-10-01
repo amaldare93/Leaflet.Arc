@@ -1,11 +1,11 @@
-# Leaflet.Arc
+# [Leaflet.Arc](https://github.com/MAD-GooZe/Leaflet.Arc)
 > Leaflet.js plugin for drawing Great Circle arcs using arc.js
 
 This plugin adds  L.Polyline.Arc function which wraps arc.js functionality for creation of Great Cirlce arcs.
 
 [Demo](http://mad-gooze.github.io/Leaflet.Arc/)
 ## Usage
-Include [Leaflet.js](http://leafletjs.com/) and [arc.js](https://github.com/springmeyer/arc.js):
+Include [Leaflet.js](http://leafletjs.com/), [arc.js](https://github.com/springmeyer/arc.js) and [Leaflet.Arc.js](https://raw.githubusercontent.com/MAD-GooZe/Leaflet.Arc/gh-pages/Leaflet.Arc.js):
 ```html
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
 <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
