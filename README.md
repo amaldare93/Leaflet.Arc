@@ -12,7 +12,7 @@ Include [Leaflet.js](http://leafletjs.com/), [arc.js](https://github.com/springm
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css"/>
 <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.js"></script>
 <script src='http://api.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
-<script src='Leaflet.Arc.js'></script>
+<script src='Leaflet.Arc.min.js'></script>
 ```
 Create arcs!
 ```javascript
