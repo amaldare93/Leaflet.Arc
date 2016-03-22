@@ -7,7 +7,7 @@ Tested with Leaflet v1.0.0-beta.2
 
 [Demo](http://mad-gooze.github.io/Leaflet.Arc/)
 ## Usage
-Include [Leaflet.js](http://leafletjs.com/), [arc.js](https://github.com/springmeyer/arc.js) and [Leaflet.Arc.js](https://raw.githubusercontent.com/MAD-GooZe/Leaflet.Arc/gh-pages/Leaflet.Arc.js):
+Include [Leaflet.js](http://leafletjs.com/), [arc.js](https://github.com/springmeyer/arc.js) and [Leaflet.Arc.min.js](https://raw.githubusercontent.com/MAD-GooZe/Leaflet.Arc/gh-pages/Leaflet.Arc.min.js):
 ```html
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css"/>
 <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.js"></script>
