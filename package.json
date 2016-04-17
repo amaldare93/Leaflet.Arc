@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Leaflet.js plugin for drawing Great Circle arcs using arc.js",
   "main": "Leaflet.Arc.min.js",
+  "jsnext:main": "Leaflet.Arc.es6.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,7 @@
     "polyline"
   ],
   "dependencies": {
-    "arc": "^0.1.0",
+    "arc": "git+https://github.com/amaldare93/arc.js.git#gh-pages",
     "leaflet": "^0.7.7"
   },
   "author": "Alexey Gusev",
