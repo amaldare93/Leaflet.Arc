@@ -14,6 +14,10 @@ Include [Leaflet.js](http://leafletjs.com/), [arc.js](https://github.com/springm
 <script src='http://api.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
 <script src='Leaflet.Arc.min.js'></script>
 ```
+or install with npm:
+```shell
+npm install --save https://github.com/MAD-GooZe/Leaflet.Arc.git#gh-pages
+```
 Create arcs!
 ```javascript
  L.Polyline.Arc([43.11667, 131.90000], [55.7522200, 37.6155600]).addTo(map);
