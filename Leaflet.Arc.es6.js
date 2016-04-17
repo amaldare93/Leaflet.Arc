@@ -1,4 +1,4 @@
-import { GreatCircle } from './arc';
+import { GreatCircle } from 'arc';
 
 if (!L) {
     throw "Leaflet.js not included";
