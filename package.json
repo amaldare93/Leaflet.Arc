@@ -2,10 +2,11 @@
   "name": "leaflet.arc",
   "version": "0.1.0",
   "description": "Leaflet.js plugin for drawing Great Circle arcs using arc.js",
-  "main": "Leaflet.Arc.min.js",
+  "main": "index.js",
   "jsnext:main": "Leaflet.Arc.es6.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "rollup-babel-lib-bundler -f cjs,es6,iife -p cjs:.cjs,es6:.es6,iife.browser index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
   "dependencies": {
     "arc": "git+https://github.com/amaldare93/arc.js.git#gh-pages",
     "leaflet": "^0.7.7"
+  },
+  "devDependencies": {
+    "rollup-babel-lib-bundler": "^2.6.1"
   },
   "author": "Alexey Gusev",
   "license": "ISC",
